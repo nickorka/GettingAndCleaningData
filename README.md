@@ -22,5 +22,5 @@ The script downloads an archive with data and stores it in **archive.zip** file.
 As soon as all files are available the same function **ds** runs against *test* and *train* folders to create corresponded datasets with merging lists of subjects and actions to create one combined data frame.
 Later readable action label is added to the data set to use the action labels and subject ids for aggregated result that is stored in _data_ folder with file name **avg_per_subj_per_act.csv**.
 
-Check [CodeBook.MD](CodeBook.MD) for more details about the script structure and variables.
+Check [CodeBook.md](CodeBook.md) for more details about the script structure and variables.
 
