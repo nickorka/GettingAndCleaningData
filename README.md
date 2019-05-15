@@ -20,7 +20,7 @@ An updated version of this dataset can be found at [Web Link](http://archive.ics
 You can just run **source("run_analysis.R")**
 The script downloads an archive with data and stores it in **archive.zip** file. After that the archive will uncompressed to original folder structure.
 As soon as all files are available the same function **ds** runs against *test* and *train* folders to create corresponded datasets with merging lists of subjects and actions to create one combined data frame.
-Later readable action label is added to the data set to use the action labels and subject ids for aggregated result that is stored in _data_ folder with file name **avg_per_subj_per_act.csv**.
+Later readable action label is added to the data set to use the action labels and subject ids for aggregated result that is stored in _data_ folder with file name **avg_per_subj_per_act.txt**.
 
 Check [CodeBook.md](CodeBook.md) for more details about the script structure and variables.
 

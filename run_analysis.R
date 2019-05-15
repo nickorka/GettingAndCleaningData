@@ -86,7 +86,7 @@ print("Average of each variable for each activity and each subject is done")
 if(!file.exists("data")) {
     dir.create("data")
 }
-write.csv(df_avg, path("data", "avg_per_subj_per_act.csv"), row.names = FALSE)
+write.table(df_avg, path("data", "avg_per_subj_per_act.txt"), row.names = FALSE)
 
 print("Result has been written to avg_per_subj_per_act.csv file.")
 
